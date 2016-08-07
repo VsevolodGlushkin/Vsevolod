@@ -11,5 +11,9 @@ main()
             cout<<" Fizz ";
         if(i%5==0)
             cout<<" Buzz ";
+        if((i%3==0)&&(i%5==0))
+            cout<<" FizzBuzz ";
+        if((i%3!=0)&&(i%5!=0))
+            cout<<i<<" ";
     }
 }
